@@ -134,7 +134,7 @@ section{
 
 .btn{
     color: white;
-    background-color: orange;
+    background-color: #3a6cf4;
     font-size: 1em;
     font-weight: 600;
     display: inline-block;
@@ -336,15 +336,10 @@ section{
     width: 65%;
     background-color: #6d7eb8;
 }
-.skills .content .col-right .bar .video::before{
-    width: 100%;
-    background-color: #6d7eb8;
-}
 
 /* Services */
 
 .services .content{
-    font: bold;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -720,90 +715,7 @@ section{
     pointer-events: none;
     opacity: 0;
     transition: all 0.3s ease;
-}
-@media (max-width: 768px) {
-    header {
-        padding: 10px 15px;
-    }
-
-    header.sticky {
-        padding: 8px 15px;
-    }
-
-    .main .content h2 {
-        font-size: 1.5em;
-    }
-
-    .animated-text h3 {
-        font-size: 1.8em;
-    }
-
-    .section-title {
-        font-size: 1.5em;
-    }
-
-    .about .content {
-        flex-direction: column;
-    }
-
-    .about .content .col-left,
-    .about .content .col-right {
-        width: 100%;
-    }
-
-    .skills .content {
-        flex-direction: column;
-    }
-
-    .skills .content .col-left,
-    .skills .content .col-right {
-        width: 100%;
-    }
-
-    .contact-form {
-        padding: 25px 30px;
-    }
-}
-
-@media (max-width: 1440px) {
-    header {
-        padding: 12px 100px;
-    }
-
-    header.sticky {
-        padding: 10px 100px;
-    }
-
-    section {
-        padding: 80px 100px;
-    }
-
-    .main .content h2 {
-        font-size: 1.8em;
-    }
-
-    .animated-text h3 {
-        font-size: 2.5em;
-    }
-
-    .section-title {
-        font-size: 2em;
-    }
-
-    .about .content .col-left,
-    .about .content .col-right {
-        width: 48%;
-    }
-
-    .skills .content .col-left,
-    .skills .content .col-right {
-        width: 48%;
-    }
-
-    .contact-form {
-        padding: 40px 50px;
-    }
-}
+  }
 
 
 
